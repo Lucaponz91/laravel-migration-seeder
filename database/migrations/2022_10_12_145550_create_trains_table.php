@@ -32,7 +32,7 @@ class CreateTrainsTable extends Migration
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->string('code', 20);
-            $table->unsignedSmallInteger('train_car_number');
+            $table->unsignedSmallInteger('train_cars');
             $table->boolean('on_time');
             $table->boolean('aborted')-> nullable();
             $table->timestamps();
